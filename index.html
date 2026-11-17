@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Wanderer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <main>
+        <h1>Daniel Kennedy</h1>
+
+        <nav>
+            <button class="nav-btn ativo" data-pagina="start">Inicio</button>
+            <button class="nav-btn" data-pagina="projetos">Projetos</button>
+            <button 
+                onclick="window.open('https://github.com/kennedy-0', '_blank')">
+                GitHub
+            </button>
+        </nav>
+    </main>
+
+    <section id="start" class="pagina ativo">
+        <h2>
+            <b>Olá, eu sou Daniel Kennedy!</b>
+            Desenvolvedor de Sistemas Embarcados e Automação.
+            Desenvolvo projetos integrando hardware e software,
+            utilizando Arduino, ESP32, Raspberry Pi, Python, C/C++
+            e Linux. Tenho foco em automação, IoT e criação de
+            soluções tecnológicas.
+        </h2>
+
+        <img src="assets/I.jpg" alt="Daniel Kennedy">
+    </section>
+
+    <section id="projetos" class="pagina">
+        <h2>PROJETOS:</h2>
+
+        <div class="p1"> 
+                <a href="https://github.com/kennedy-0/KeyDeck" target="_blank">
+                    <img src="assets/KeyDeck.jpg" alt="KeyDeck">
+                </a>
+            <h3>
+                KeyDeck
+            </h3>
+            <p>
+                O KeyDeck é um dispositivo desenvolvido com RP2040 que utiliza a funcionalidade USB HID para simular um teclado conectado ao computador.
+                O projeto possui uma interface própria com display OLED e botões físicos, permitindo navegar por um menu e executar diferentes funções programadas.
+            </p>
+        </div>
+
+        <div class="p2">
+            <a href="https://github.com/kennedy-0/LoginTestLab" target="_blank">
+                <img src="assets/interface.png" alt="KeyDeck">
+            </a>
+            <h3>
+                LoginTestLab
+            </h3>
+            <p>Projeto desenvolvido em Python para estudo de automação de testes de autenticação utilizando Selenium. A aplicação automatiza a interação com um formulário de login em um ambiente autorizado, permitindo testar diferentes entradas e validar o comportamento do sistema.
+                O projeto começou como um experimento em Python utilizando Selenium, com o objetivo de estudar automação de páginas web e interação com formulários de login em um ambiente autorizado.
+            </p>
+        </div>
+        <div class="p3">
+            <a href="https://github.com/kennedy-0/LoginTestLab" target="_blank">
+                <img src="assets/tec.jpg" alt="KeyDeck">
+            </a>
+            <h3>Cyber-Deck</h3>
+            <p>Cyber Deck é um computador portátil desenvolvido do zero, inspirado no livro Neuromancer. O projeto integra hardware e software em uma plataforma personalizada para programação, automação e administração de sistemas. Atualmente, está na fase de configuração do sistema operacional.</p>
+        </div>
+    </section>
+
+ 
+
+</body>
+</html>
