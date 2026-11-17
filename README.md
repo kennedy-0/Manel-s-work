@@ -85,14 +85,7 @@ python3 -m http.server 8000
 # acesse http://localhost:8000
 ```
 
-## Como publicar no GitHub Pages
 
-1. Envie os arquivos para o repositório (branch `main`).
-2. Vá em **Settings → Pages**.
-3. Em **Build and deployment → Source**, escolha **Deploy from a branch**.
-4. Selecione a branch **main** e a pasta **/ (root)** e clique em **Save**.
-5. Aguarde 1 a 2 minutos. O site ficará em:
-   `https://kennedy-0.github.io/NOME-DO-REPOSITORIO/`
 
 ## Contato
 
